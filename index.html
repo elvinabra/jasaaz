@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="container d-flex header2">
+    <div class="logo-and-menues d-flex">
+        <div class="logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </div>
+        <div class="searchbar" >
+            <input type="text" class="search-input-first" placeholder="Search something here">
+            <a href="#"><img src="./img/search-normal.png" alt="search-icon"></a>
+        </div>
+    </div>
+     
+
+
+
+    <div class="lang-and-signin d-flex">
+        <select name="" id="lang">
+            <option value="en">EN</option>
+            <option value="az">AZ</option>
+            <option value="ru">RU</option>
+        </select>
+        <a href="#" id="favourite"><i class="fa-solid fa-heart"></i></a>
+        <a href="#" id="notification"><i class="fa-solid fa-bell"></i></a>
+        <a href="#" id="settings"><i class="fa-solid fa-gear"></i></a>
+        <a href="#" id="account"></a>
+    </div>  
+</header>
+
+
+<header class="container d-flex header1">
+    <div class="logo-and-menues d-flex">
+        <a href="/" class="logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </a>
+        <nav class="d-flex">
+            <a href="cars.html">cars</a>
+            <a href="cars.html">vendors</a>
+        </nav>
+    </div>
+     
+    <div class="searchbar">
+        <input type="text" class="search-input-first" placeholder="Search something here">
+        <a href="#"><img src="./img/search-normal.png" alt="search-icon"></a>
+    </div>
+
+
+    <div class="lang-and-signin d-flex">
+        <select name="" id="lang">
+            <option value="en">EN</option>
+            <option value="az">AZ</option>
+            <option value="ru">RU</option>
+        </select>
+
+        <a href="signin.html" class="primary-button">Join as a Vendor</a>
+    </div>  
+</header>
+
+<main>
+    <section class="banner-and-filter d-flex">
+<div class="banner d-flex">
+    <div class="left">    
+        <h2 class="banner-header">Premium <br>
+        Car Rental<br>
+        in Baku</h2>
+        <p class="banner-description">Over 500 cars options in one platform</p>
+    </div>
+<div class="right">
+    <img src="./img/banner car.png" alt="car">
+</div>
+</div>
+<div class="filter d-flex">
+    <form action="" class="d-flex">
+        <div class="filter-select brand-name">
+            <select name="" id="">
+                <option selected disabled>Brand Name</option>
+                <option value="1">mercedess benz</option>
+                <option value="2">bmw</option>
+                <option value="3">opel</option>
+            </select>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="filter-select model">
+            <select name="" id="">
+                <option selected disabled>Model</option>
+                <option value="1">mercedess benz</option>
+                <option value="2">bmw</option>
+                <option value="3">opel</option>
+            </select>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="filter-select type">
+            <select name="" id="">
+                <option selected disabled>Type</option>
+                <option value="1">mercedess benz</option>
+                <option value="2">bmw</option>
+                <option value="3">opel</option>
+            </select>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+        <div class="filter-select from">
+            <input type="date" id="from" placeholder="Date from">
+            <label for="from">Date from</label>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+        <div class="filter-select to">
+            <input type="date" id="to" placeholder="Date from">
+            <label for="to">Date from</label>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </form>
+    
+
+    
+</div>
+    </section>
+    <section class="product-section container cars">
+        <h3>hot offers</h3>
+      
+<div class="products d-flex">
+    <div class="product d-flex">
+            
+        <div class="product-header d-flex">
+            <div class="d-flex">
+                <h4 class="car-name">Toyota</h4>
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+            </div>
+            <div>suv</div>
+        </div>
+       
+       <a href="detail.html" class="product-image">
+        <img src="./img/product car.png" alt="product-car-image">
+       </a>
+    
+       <div class="product-card-detail d-flex">
+        <div class="manual-type d-flex">
+    <span><img src="./icons/skorus manual.png" alt="manual"></span>
+    <span>Manual</span>
+        </div>
+        <div class="person-count d-flex">
+            <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+            <span>People</span>
+        </div>
+     
+       </div>
+       <div class="price-rent d-flex">
+        <div class="price">
+            <span>$72.00 /</span><span>day</span> 
+            <del>$80.00</del>
+        </div>
+          <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+    </div>
+
+            
+        </div>
+        <div class="product d-flex">
+            
+            <div class="product-header d-flex">
+                <div class="d-flex">
+                    <h4 class="car-name">Toyota</h4>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </div>
+                <div>suv</div>
+            </div>
+           
+           <a href="detail.html" class="product-image">
+            <img src="./img/product car.png" alt="product-car-image">
+           </a>
+        
+           <div class="product-card-detail d-flex">
+            <div class="manual-type d-flex">
+        <span><img src="./icons/skorus manual.png" alt="manual"></span>
+        <span>Manual</span>
+            </div>
+            <div class="person-count d-flex">
+                <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                <span>People</span>
+            </div>
+         
+           </div>
+           <div class="price-rent d-flex">
+            <div class="price">
+                <span>$72.00 /</span><span>day</span> 
+                <del>$80.00</del>
+            </div>
+              <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+        </div>
+    
+                
+            </div>
+    
+            <div class="product d-flex">
+            
+                <div class="product-header d-flex">
+                    <div class="d-flex">
+                        <h4 class="car-name">Toyota</h4>
+                        <a href="#">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div>suv</div>
+                </div>
+               
+               <a href="detail.html" class="product-image">
+                <img src="./img/product car.png" alt="product-car-image">
+               </a>
+            
+               <div class="product-card-detail d-flex">
+                <div class="manual-type d-flex">
+            <span><img src="./icons/skorus manual.png" alt="manual"></span>
+            <span>Manual</span>
+                </div>
+                <div class="person-count d-flex">
+                    <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                    <span>People</span>
+                </div>
+             
+               </div>
+               <div class="price-rent d-flex">
+                <div class="price">
+                    <span>$72.00 /</span><span>day</span> 
+                    <del>$80.00</del>
+                </div>
+                  <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+            </div>
+        
+                    
+                </div>
+
+                <div class="product d-flex">
+            
+                    <div class="product-header d-flex">
+                        <div class="d-flex">
+                            <h4 class="car-name">Toyota</h4>
+                            <a href="#">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                        </div>
+                        <div>suv</div>
+                    </div>
+                   
+                   <a href="detail.html" class="product-image">
+                    <img src="./img/product car.png" alt="product-car-image">
+                   </a>
+                
+                   <div class="product-card-detail d-flex">
+                    <div class="manual-type d-flex">
+                <span><img src="./icons/skorus manual.png" alt="manual"></span>
+                <span>Manual</span>
+                    </div>
+                    <div class="person-count d-flex">
+                        <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                        <span>People</span>
+                    </div>
+                 
+                   </div>
+                   <div class="price-rent d-flex">
+                    <div class="price">
+                        <span>$72.00 /</span><span>day</span> 
+                        <del>$80.00</del>
+                    </div>
+                      <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+                </div>
+            
+                        
+                    </div>
+
+                    <div class="product d-flex">
+            
+                        <div class="product-header d-flex">
+                            <div class="d-flex">
+                                <h4 class="car-name">Toyota</h4>
+                                <a href="#">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div>suv</div>
+                        </div>
+                       
+                       <a href="detail.html" class="product-image">
+                        <img src="./img/product car.png" alt="product-car-image">
+                       </a>
+                    
+                       <div class="product-card-detail d-flex">
+                        <div class="manual-type d-flex">
+                    <span><img src="./icons/skorus manual.png" alt="manual"></span>
+                    <span>Manual</span>
+                        </div>
+                        <div class="person-count d-flex">
+                            <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                            <span>People</span>
+                        </div>
+                     
+                       </div>
+                       <div class="price-rent d-flex">
+                        <div class="price">
+                            <span>$72.00 /</span><span>day</span> 
+                            <del>$80.00</del>
+                        </div>
+                          <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+                    </div>
+                
+                            
+                        </div>
+        
+                        <div class="product d-flex">
+                    
+                            <div class="product-header d-flex">
+                                <div class="d-flex">
+                                    <h4 class="car-name">Toyota</h4>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div>suv</div>
+                            </div>
+                           
+                           <a href="detail.html" class="product-image">
+                            <img src="./img/product car.png" alt="product-car-image">
+                           </a>
+                        
+                           <div class="product-card-detail d-flex">
+                            <div class="manual-type d-flex">
+                        <span><img src="./icons/skorus manual.png" alt="manual"></span>
+                        <span>Manual</span>
+                            </div>
+                            <div class="person-count d-flex">
+                                <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                                <span>People</span>
+                            </div>
+                         
+                           </div>
+                           <div class="price-rent d-flex">
+                            <div class="price">
+                                <span>$72.00 /</span><span>day</span> 
+                                <del>$80.00</del>
+                            </div>
+                              <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+                        </div>
+                    
+                                
+                            </div>
+                            <div class="product d-flex">
+            
+                                <div class="product-header d-flex">
+                                    <div class="d-flex">
+                                        <h4 class="car-name">Toyota</h4>
+                                        <a href="#">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div>suv</div>
+                                </div>
+                               
+                               <a href="detail.html" class="product-image">
+                                <img src="./img/product car.png" alt="product-car-image">
+                               </a>
+                            
+                               <div class="product-card-detail d-flex">
+                                <div class="manual-type d-flex">
+                            <span><img src="./icons/skorus manual.png" alt="manual"></span>
+                            <span>Manual</span>
+                                </div>
+                                <div class="person-count d-flex">
+                                    <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                                    <span>People</span>
+                                </div>
+                             
+                               </div>
+                               <div class="price-rent d-flex">
+                                <div class="price">
+                                    <span>$72.00 /</span><span>day</span> 
+                                    <del>$80.00</del>
+                                </div>
+                                  <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+                            </div>
+                        
+                                    
+                                </div>
+                                <div class="product d-flex">
+                                    
+                                    <div class="product-header d-flex">
+                                        <div class="d-flex">
+                                            <h4 class="car-name">Toyota</h4>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </div>
+                                        <div>suv</div>
+                                    </div>
+                                   
+                                   <a href="detail.html" class="product-image">
+                                    <img src="./img/product car.png" alt="product-car-image">
+                                   </a>
+                                
+                                   <div class="product-card-detail d-flex">
+                                    <div class="manual-type d-flex">
+                                <span><img src="./icons/skorus manual.png" alt="manual"></span>
+                                <span>Manual</span>
+                                    </div>
+                                    <div class="person-count d-flex">
+                                        <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                                        <span>People</span>
+                                    </div>
+                                 
+                                   </div>
+                                   <div class="price-rent d-flex">
+                                    <div class="price">
+                                        <span>$72.00 /</span><span>day</span> 
+                                        <del>$80.00</del>
+                                    </div>
+                                      <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+                                </div>
+                            
+                                        
+                                    </div>
+                            
+                                    <div class="product d-flex">
+                                    
+                                        <div class="product-header d-flex">
+                                            <div class="d-flex">
+                                                <h4 class="car-name">Toyota</h4>
+                                                <a href="#">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div>suv</div>
+                                        </div>
+                                       
+                                       <a href="detail.html" class="product-image">
+                                        <img src="./img/product car.png" alt="product-car-image">
+                                       </a>
+                                    
+                                       <div class="product-card-detail d-flex">
+                                        <div class="manual-type d-flex">
+                                    <span><img src="./icons/skorus manual.png" alt="manual"></span>
+                                    <span>Manual</span>
+                                        </div>
+                                        <div class="person-count d-flex">
+                                            <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                                            <span>People</span>
+                                        </div>
+                                     
+                                       </div>
+                                       <div class="price-rent d-flex">
+                                        <div class="price">
+                                            <span>$72.00 /</span><span>day</span> 
+                                            <del>$80.00</del>
+                                        </div>
+                                          <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+                                    </div>
+                                
+                                            
+                                        </div>
+                        
+                                        <div class="product d-flex">
+                                    
+                                            <div class="product-header d-flex">
+                                                <div class="d-flex">
+                                                    <h4 class="car-name">Toyota</h4>
+                                                    <a href="#">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </a>
+                                                </div>
+                                                <div>suv</div>
+                                            </div>
+                                           
+                                           <a href="detail.html" class="product-image">
+                                            <img src="./img/product car.png" alt="product-car-image">
+                                           </a>
+                                        
+                                           <div class="product-card-detail d-flex">
+                                            <div class="manual-type d-flex">
+                                        <span><img src="./icons/skorus manual.png" alt="manual"></span>
+                                        <span>Manual</span>
+                                            </div>
+                                            <div class="person-count d-flex">
+                                                <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                                                <span>People</span>
+                                            </div>
+                                         
+                                           </div>
+                                           <div class="price-rent d-flex">
+                                            <div class="price">
+                                                <span>$72.00 /</span><span>day</span> 
+                                                <del>$80.00</del>
+                                            </div>
+                                              <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+                                        </div>
+                                    
+                                                
+                                            </div>
+                        
+                                            <div class="product d-flex">
+                                    
+                                                <div class="product-header d-flex">
+                                                    <div class="d-flex">
+                                                        <h4 class="car-name">Toyota</h4>
+                                                        <a href="#">
+                                                            <i class="fa-regular fa-heart"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div>suv</div>
+                                                </div>
+                                               
+                                               <a href="detail.html" class="product-image">
+                                                <img src="./img/product car.png" alt="product-car-image">
+                                               </a>
+                                            
+                                               <div class="product-card-detail d-flex">
+                                                <div class="manual-type d-flex">
+                                            <span><img src="./icons/skorus manual.png" alt="manual"></span>
+                                            <span>Manual</span>
+                                                </div>
+                                                <div class="person-count d-flex">
+                                                    <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                                                    <span>People</span>
+                                                </div>
+                                             
+                                               </div>
+                                               <div class="price-rent d-flex">
+                                                <div class="price">
+                                                    <span>$72.00 /</span><span>day</span> 
+                                                    <del>$80.00</del>
+                                                </div>
+                                                  <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+                                            </div>
+                                        
+                                                    
+                                                </div>
+                                
+                                                <div class="product d-flex">
+                                            
+                                                    <div class="product-header d-flex">
+                                                        <div class="d-flex">
+                                                            <h4 class="car-name">Toyota</h4>
+                                                            <a href="#">
+                                                                <i class="fa-regular fa-heart"></i>
+                                                            </a>
+                                                        </div>
+                                                        <div>suv</div>
+                                                    </div>
+                                                   
+                                                   <a href="detail.html" class="product-image">
+                                                    <img src="./img/product car.png" alt="product-car-image">
+                                                   </a>
+                                                
+                                                   <div class="product-card-detail d-flex">
+                                                    <div class="manual-type d-flex">
+                                                <span><img src="./icons/skorus manual.png" alt="manual"></span>
+                                                <span>Manual</span>
+                                                    </div>
+                                                    <div class="person-count d-flex">
+                                                        <span><img src="./icons/profile-2user.png" alt="profile-user"></span>
+                                                        <span>People</span>
+                                                    </div>
+                                                 
+                                                   </div>
+                                                   <div class="price-rent d-flex">
+                                                    <div class="price">
+                                                        <span>$72.00 /</span><span>day</span> 
+                                                        <del>$80.00</del>
+                                                    </div>
+                                                      <div><a href="detail.html" class="primary-button">Rent Now</a></div>
+                                                </div>
+                                            
+                                                        
+                                                    </div>
+</div>
+<div class="view-all d-flex"><a href="cars.html" class="primary-button">View All</a></div>
+
+<div class="banner-second d-flex">
+    <div class="top">
+        <h2>Join as a Vendor</h2>
+        <p>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+    </div>
+    <div class="bottom">
+        <div ><a href="#" class="primary-button">Apply</a></div>
+    </div>
+</div>
+    </section>
+</main>
+
+
+<footer class="container">
+    <div class="top-footer d-flex">
+        <div class="top-left">
+        <div class="logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </div>  
+        <p class="description">Our mission is to deliver a seamless car rental experience, connecting travelers to vehicles that match their desires, ensuring every trip is memorable. With a fleet as diverse as our community, we’re not just providing transportation; we’re fueling
+            passion, sparking discoveries, and bridging distances.
+            Your journey, our drive.</p>
+        </div>
+        <div class="top-right d-flex">
+            <div>
+                <h4><a href="#">About</a></h4>
+                <ul>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4><a href="#">Socials</a></h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Tiktok</a></li>
+                    <li><a href="#">Tiktok</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4><a href="#">Socials</a></h4>
+               
+            </div>
+        </div>
+    </div>
+    <div class="bottom-footer d-flex">
+        <p>©2022 JASA. All rights reserved</p>
+    </div> 
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
