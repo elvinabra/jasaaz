@@ -1,0 +1,220 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'poppins';
+    background-color: #F6F7F9;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.header1, .banner, .logo-and-menues, .lang-and-signin, .header2, .car-detail, .description-detail, .name-and-star, .star-favourite, .car-detail-spesification, 
+.car-detail-spesification > div, .detail-date, .price-rentnow, .reviews-header, .recent-view-all, .rent-price > div, .final-total-price
+{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1, .header2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo-and-menues, .lang-and-signin{
+    width: 25%;
+}  
+
+.header2 .logo-and-menues{
+    width: 50%;
+}
+.logo {
+    width: 100px;
+}
+
+nav{
+    justify-content: center;
+    width: 50%;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.searchbar{
+    position: relative;
+    width: 40%;
+}
+
+header, footer{
+    background-color: white;
+}
+
+.header2 .searchbar{
+   
+    width: 70%;
+}
+
+.searchbar > .search-input-first{
+    width: 100%;
+    padding: 15px 100px;
+    border-radius: 25px;
+    border-color: rgba(0, 0, 0, 0.158);
+    font-size: 18px;
+}
+
+.searchbar > a, .searchbar > span{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.searchbar > a{
+    left: 25px;
+}
+
+.searchbar > span{
+    right: 25px;
+    width: 24px;
+    display: inline-block;
+}
+
+.primary-button{
+    background-color: #3563E9;
+    padding: 5px 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.lang-and-signin{
+    padding-left: 8%;
+}
+
+
+.header2 .lang-and-signin a{
+    height: 44px;
+    width: 44px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.header2 .lang-and-signin a:last-child{
+    background-color: #3563E9;
+}
+
+.header2 .lang-and-signin a i{
+font-size: 24px;
+color: #596780;
+}
+
+#lang{
+    appearance: none;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+#lang:focus{
+    outline: none;
+    border: none;
+}
+
+.banner{
+    height: 506px;
+    background: url(../img/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+footer{
+    padding-top: 40px;
+}
+ .top-footer ul{
+    padding-left: 0;
+ }
+ .top-footer{
+    width: 100%;
+    justify-content: space-between;
+ }
+ .top-footer > div{
+    width: 30%;
+ }
+
+ .top-right > div{
+    margin: 0 20px;
+ }
+
+ .top-right ul li a{
+    font-size: 14px;
+ }
+
+ .top-left p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.671);
+ }
+
+ .bottom-footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 0 40px;
+    justify-content: center;
+    align-items: center;
+ }
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+ .left-sidebar-admin{
+    width: 20%;
+    background: white;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+ }

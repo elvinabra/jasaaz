@@ -9,22 +9,48 @@
     <title>Document</title>
 </head>
 <body>
-
-<header class="container d-flex">
+<header class="container d-flex header2">
     <div class="logo-and-menues d-flex">
          <a href="/" class="logo">
             <img src="./img/Logo.png" alt="Logo">
         </a>
+        <div class="searchbar" >
+            <input type="text" class="search-input-first" placeholder="Search something here">
+            <a href="#"><img src="./img/search-normal.png" alt="search-icon"></a>
+        </div>
+    </div>
+     
+
+
+
+    <div class="lang-and-signin d-flex">
+        <select name="" id="lang">
+            <option value="en">EN</option>
+            <option value="az">AZ</option>
+            <option value="ru">RU</option>
+        </select>
+        <a href="#" id="favourite"><i class="fa-solid fa-heart"></i></a>
+        <a href="#" id="notification"><i class="fa-solid fa-bell"></i></a>
+        <a href="#" id="settings"><i class="fa-solid fa-gear"></i></a>
+        <a href="#" id="account"></a>
+    </div>  
+</header>
+
+
+<header class="container d-flex header1">
+    <div class="logo-and-menues d-flex">
+        <a href="/" class="logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </a>
         <nav class="d-flex">
-            <a href="#">cars</a>
-            <a href="#">vendors</a>
+            <a href="cars.html">cars</a>
+            <a href="cars.html">vendors</a>
         </nav>
     </div>
      
     <div class="searchbar">
         <input type="text" class="search-input-first" placeholder="Search something here">
         <a href="#"><img src="./img/search-normal.png" alt="search-icon"></a>
-
     </div>
 
 
@@ -35,46 +61,28 @@
             <option value="ru">RU</option>
         </select>
 
-        <a href="#" class="primary-button">Join as a Vendor</a>
+        <a href="signin.html" class="primary-button">Join as a Vendor</a>
     </div>  
 </header>
 
 <main>
-
-    <section class="product-section" style="padding-top: 0;">
-    
-    <div class="login d-flex">
-
-    <form class="login-main" >
-
-
-    <div class="login-word">
-        <img src="./img/loginword.png" alt="login" width="40">
-    </div>
-    <div class="email">
-        <input type="email" placeholder="Email">
-    </div>
-    <div class="password">
-        <input id="password" type="password" placeholder="Password">
-        <a href="#" id="showpassword"><i class="fa-regular fa-eye"></i></a>
-    </div>
-    <div class="remember d-flex">
-        <input type="checkbox" id="remember"> <label for="remember">Save email  and password</label>
-    </div>
-
-    <div class="submit">
-        <button href="#" class="primary-button">Login</button>
-    </div>
- 
-     </form>
-
-<div class="login-image"  style="background: url(./img/login0image.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
- 
+<section class="container d-flex final-how-it-works">
+<div class="rent-left">
+    <img src="./img/image 11.png" alt="">
 </div>
 
-    </div>  
+<div class="rent-right d-flex">
+<ol>
+    <li>Look for desired car type in a given range</li>
+    <li>Scroll through the options and choose desired car model</li>
+    <li>Book the car model by pressing "Rent Now"</li>
+    <li>Choose the pick-up and drop-off locations</li>
+    <li>Make the payment</li>
+</ol>
+</div>
+</section>
 
-<div class="banner-second d-flex .container">
+<div class="banner-second banner-final-rent d-flex">
     <div class="top">
         <h2>Join as a Vendor</h2>
         <p>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
@@ -83,7 +91,6 @@
         <div ><a href="#" class="primary-button">Apply</a></div>
     </div>
 </div>
-    </section>
 </main>
 
 

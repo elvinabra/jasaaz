@@ -38,7 +38,7 @@ img{
 }
 
 .header1, .banner, .logo-and-menues, .lang-and-signin, .header2, .car-detail, .description-detail, .name-and-star, .star-favourite, .car-detail-spesification, 
-.car-detail-spesification > div, .detail-date, .price-rentnow, .reviews-header, .recent-view-all
+.car-detail-spesification > div, .detail-date, .price-rentnow, .reviews-header, .recent-view-all, .rent-price > div, .final-total-price
 {
     justify-content: space-between;
     align-items: center;
@@ -450,7 +450,7 @@ width: 300px;
     margin-top: 40px;
 }
 
-.login-main input{
+.login-main input, .login-main textarea{
     width: 100%;
     padding: 20px 25px;
     border-radius: 10px;
@@ -825,4 +825,375 @@ align-items: center;
 
 .recent-view-all > a{
     color: blue;
+}
+
+.rent-car-name, .vendor-products h3{
+    font-size: 32px !important;
+    color: #3563E9;
+    font-weight: 900 !important;
+    opacity: 1 !important;
+}
+
+
+
+.rent-second{
+   background-color: #F6F7F9; 
+   justify-content: space-between;
+}
+
+.rent-second .rent-left{
+    width: 65%;
+}
+
+.rent-second .rent-right{
+    width: 30%;
+}
+
+.rent-card, .payment-method-body, .rent-card, .prome-code{
+    background: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.rent-card h5{
+margin: 0;
+font-size: 20px;
+font-weight: 700;
+}
+
+.payment-method-header > div{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-method-header > div > span{
+    color: #90A3BF;
+    font-size: 14px;
+}
+
+.payment-method-body, .prome-code{
+    background-color: #F6F7F9;
+}
+
+.payment-method-body > div:nth-child(1){
+    justify-content: space-between;
+}
+
+.payment-method-body > div:nth-child(1) > div:nth-child(1) > span:nth-child(1){
+display: flex;
+width: 16px;
+height: 16px;
+border: 2px solid #3562e9af;
+border-radius: 50px;
+justify-content: center;
+align-items: center;
+}
+
+.payment-method-body > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span{
+    width: 8px;
+    height: 8px;
+    background-color: #3563E9;
+    border-radius: 50px;
+}
+
+.payment-method-body > div:nth-child(1) > div:nth-child(1){
+    width: 50%;
+     align-items: center;
+}
+
+.payment-method-body > div:nth-child(1) > div:nth-child(1) > span:nth-child(2), .card-info > div p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-info > div p{
+    margin: 10px 0;
+}
+
+.card-info{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card-info > div{
+    width: 45%;
+    margin-top: 15px;
+}
+
+.card-info > div:nth-child(even){
+margin-left: 10px;
+}
+
+.card-info > div:nth-child(odd){
+    margin-right: 10px;
+}
+
+.card-info > div > input, .card-info > div > select{
+    width: 100%;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+.billing .payment-method-body{
+    background-color: white;
+}
+
+.billing .payment-method-body input, .card-info > div > select{
+    background-color: #F6F7F9;
+}
+
+.billing .payment-method-body{
+    margin-top: 0px !important;
+}
+
+.pick .payment-method-header{
+    margin-top: 20px;
+}
+
+
+.pick .payment-method-body{
+    background-color: white;
+}
+
+.pick .payment-method-body input{
+    background-color: #F6F7F9;
+}
+
+
+.rent-left .remember{
+    width: 100%;
+    margin: 40px 0;
+}
+
+.rent-left .remember > label{
+    width: 80%;
+    font-weight: 700;
+}
+
+.rent-left .remember input{
+    width: 60px;
+
+}
+
+.right-rent-header h5{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.right-rent-header p, .rent-right span{
+    color: #90A3BF;
+    font-size: 14px;
+}
+
+.rent-car-img{
+    width: 132px;
+    height: 108px;
+}
+
+.rent-car-img{
+    object-fit: cover;
+}
+
+.rent-car-name-star{
+    margin-left: 20px;
+}
+
+.rent-car-name-star h3{
+font-size: 24px;
+margin: 0;
+}
+
+.rent-right .rent-car{
+    align-items: center;
+}
+
+.rent-car-name-star .star span{
+    width: 16px;
+    height: 16px;
+}
+
+.rent-price > div{
+    margin-top: 10px;
+}
+
+.rent-price > div > span:nth-child(2){
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.final-total-price, .payment-button{
+    margin-top: 20px;
+}
+
+.final-total-price h6{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    margin: 0;
+}
+
+.final-total-price > span{
+    font-size: 32px;
+    font-weight: 900;
+    color: black;
+    margin: 5px;
+}
+
+.payment-button{
+    justify-content: flex-end;
+}
+
+.payment-button a{
+    padding: 15px;
+}
+
+.final-rent-second, .final-how-it-works{
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #F6F7F9;
+    padding: 50px;
+}
+
+
+.final-rent-second > div, .final-how-it-works > div{
+    width: 40%;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.final-rent-second > div:nth-child(1){
+    background-color: white;
+}
+.rent-left > div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.succesful .image{
+    width: 60px;
+}
+
+.succesful p{
+    font-size: 20px;
+}
+
+.succesful span{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.rent-left .body{
+    border-top: 1px solid #EDEDED;
+}
+
+.rent-left .body > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rent-left .body > div span{
+    font-weight: 400;
+    color: #707070;
+}
+
+.rent-left .body > div p{
+    font-weight: 900;
+    color: black;
+}
+
+.final-rent-second .rent-right{
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+.final-rent-second .rent-right p{
+    font-size: 26px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.final-rent-second .rent-right button{
+   background-color: #23A26D;
+   border: none;
+   color: white;
+   font-weight: 500;
+   border-radius: 10px;
+   padding: 20px;
+   width: 351px;
+   font-size: 16px;
+   margin-top: 20px;
+}
+
+
+.banner-final-rent{
+    margin: 0;
+}
+
+.final-how-it-works ol{
+    margin-top: 0;
+}
+
+.final-how-it-works ol li{
+    list-style: decimal;
+    margin-top: 40px;
+}
+
+.final-how-it-works ol li:nth-child(1){
+    margin-top: 0;
+}
+
+.vendors, .privacy, .terms{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    background-color: #F6F7F9;
+}
+
+.vendors > .vendor{
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #D9D9D9;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.vendors > .vendor:nth-child(1){
+    margin: 0;
+}
+
+.vendors > .vendor > div{
+width: 20%;
+}
+
+.vendor-cars a{
+    padding: 20px;
+}
+
+.privacy h2, .terms > h2{
+    width: 100%;
+    text-align: start;
+    color: #3563E9;
+    font-size: 32px;
+}
+
+.privacy ol{
+    padding: 0;
+}
+
+.privacy ol li{
+    list-style-type: decimal;
+}
+
+.terms div{
+    margin-top: 50px;
 }
