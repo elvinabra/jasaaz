@@ -9,6 +9,15 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="mobile-header">
+        <a href="#" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <a href="#" class="menu-user">
+            <img src="./img/Ellipse 93.png" alt="user">
+        </a>
+    </div>
+
 <header class="container d-flex header2">
     <div class="logo-and-menues d-flex">
          <a href="index.html" class="logo">
@@ -43,8 +52,20 @@
             <img src="./img/Logo.png" alt="Logo">
         </a>
         <nav class="d-flex">
+            <a href="index.html" class="logo for-mobile">
+                <img src="./img/Logo.png" alt="Logo">
+            </a>
             <a href="cars.html">cars</a>
             <a href="cars.html">vendors</a>
+            <div class="lang-and-signin d-flex for-mobile">
+                <select name="" id="lang">
+                    <option value="en">EN</option>
+                    <option value="az">AZ</option>
+                    <option value="ru">RU</option>
+                </select>
+        
+                <a href="signin.html" class="primary-button">Join as a Vendor</a>
+            </div>  
         </nav>
     </div>
      
@@ -54,7 +75,7 @@
     </div>
 
 
-    <div class="lang-and-signin d-flex">
+    <div class="lang-and-signin d-flex for-pc">
         <select name="" id="lang">
             <option value="en">EN</option>
             <option value="az">AZ</option>

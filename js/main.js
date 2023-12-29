@@ -25,4 +25,27 @@ if($("#price-range").length){
     });
 }
 
+if($(".for-filter").length){
+    $(".for-filter").click(function(){
+        $(".filter-column").toggleClass("active");
+        $(".cars-column").toggleClass("active");
+        $(this).toggleClass("active");
+    })
+}
 
+
+if($(".for-filters").length){
+    $(".for-filters").click(function(){
+        $(".filter-column").toggleClass("enabled");
+        
+        $(this).toggleClass("enabled");
+        $(".cars-column").toggleClass("enabled");
+
+        if($(".for-filters.enabled").length){
+            $(".for-filters.enabled").html('<i class="fa-solid fa-filter-circle-xmark"></i>');
+        }
+        else{
+            $(".for-filters").html('<i class="fa-solid fa-filter"></i>');
+        }
+    })
+}

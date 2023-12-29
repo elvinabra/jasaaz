@@ -9,6 +9,15 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="mobile-header">
+        <a href="#" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <a href="#" class="menu-user">
+            <img src="./img/Ellipse 93.png" alt="user">
+        </a>
+    </div>
+
 <header class="container d-flex header2">
     <div class="logo-and-menues d-flex">
          <a href="index.html" class="logo">
@@ -43,8 +52,20 @@
             <img src="./img/Logo.png" alt="Logo">
         </a>
         <nav class="d-flex">
+            <a href="index.html" class="logo for-mobile">
+                <img src="./img/Logo.png" alt="Logo">
+            </a>
             <a href="cars.html">cars</a>
             <a href="cars.html">vendors</a>
+            <div class="lang-and-signin d-flex for-mobile">
+                <select name="" id="lang">
+                    <option value="en">EN</option>
+                    <option value="az">AZ</option>
+                    <option value="ru">RU</option>
+                </select>
+        
+                <a href="signin.html" class="primary-button">Join as a Vendor</a>
+            </div>  
         </nav>
     </div>
      
@@ -54,7 +75,7 @@
     </div>
 
 
-    <div class="lang-and-signin d-flex">
+    <div class="lang-and-signin d-flex for-pc">
         <select name="" id="lang">
             <option value="en">EN</option>
             <option value="az">AZ</option>
@@ -66,12 +87,180 @@
 </header>
 
 <main>
+<div class="admin-partner d-flex">
+
+
 <div class="left-sidebar-admin">
-<span>M A I N  M E N U</span>
+    <div class="top">
+<span>MAIN MENU</span>
 <div class="main-menu">
-    <a href="#"></a>
-    <a href="#"></a>
+    <a href="#" class="active"><i class="fa-solid fa-house"></i> <span>Dashboard</span></a>
+    <a href="#"><i class="fa-regular fa-message"></i><span>Inbox</span></a>
 </div>
+
+<span>PREFERENCES</span>
+<div class="main-menu">
+    <a href="#"><i class="fa-solid fa-gear"></i> <span>Settings</span></a>
+    <a href="#"><i class="fa-solid fa-circle-info"></i><span>Support</span></a>
+</div>
+</div>
+
+<div class="bottom">
+    <div class="main-menu">
+        <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i><span>Log Out</span></a>
+    </div>
+</div>
+</div>
+<div class="right-sidebar-admin d-flex">
+    <div class="detail-rental">
+        <h3>Details Rental</h3>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.914823513697!2d49.868686075481534!3d40.38858035735294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d17de5e3d1d%3A0x2da2edf637232eb3!2sRusel%20Plaza!5e0!3m2!1sen!2saz!4v1703662864450!5m2!1sen!2saz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="choosen-car d-flex">
+          <div class="choosen-car-image">
+            <img src="./img/Look.png" alt="car-img">
+          </div>
+          <div class="choosen-car-name">
+            <h4>Nissan GT - R</h4>
+            <p>Sport Car</p>
+          </div>
+          <div class="choosen-car-id">
+            <span>#9761</span>
+          </div>
+        </div>
+
+        <div class="choosen-pick-up">
+            <div class="d-flex">
+                <div class="d-flex"><span><span></span></span>
+                    <span>Pick - Up</span></div>
+            </div> 
+            <div class="location-date d-flex">
+            <div>
+                <p>Locations</p>
+                <p>Fizuli st</p>
+            </div>
+            <div>
+                <p>Date</p>
+                <p>20 July 2022</p>
+            </div>
+            
+
+            <div>
+                <p>Time</p>
+                <p>07.00</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="choosen-pick-up">
+            <div class="d-flex">
+                <div class="d-flex"><span><span></span></span>
+                    <span>Drop - Off</span></div>
+            </div> 
+            <div class="location-date d-flex">
+            <div>
+                <p>Locations</p>
+                <p>Fizuli st</p>
+            </div>
+
+            <div>
+                <p>Date</p>
+                <p>21 July 2022</p>
+            </div>
+
+            <div>
+                <p>Time</p>
+                <p>01.00</p>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="choosen-total-rent d-flex">
+            <div class="total">
+                <h5>Total Rental Price</h5>
+                <span>Overall price and includes rental discount</span>
+            </div>
+               <span>$80.00</span>
+        </div>
+    </div>
+    <div class="orders">
+        <div class="choosen-car d-flex">
+            <div class="choosen-car-image">
+              <img src="./img/Look.png" alt="car-img">
+            </div>
+            <div class="choosen-car-name">
+              <h4>Nissan GT - R</h4>
+              <p>Sport Car</p>
+            </div>
+            <div class="choosen-car-id">
+              <span>#9761</span>
+            </div>
+        </div>
+        <div class="choosen-car d-flex">
+            <div class="choosen-car-image">
+              <img src="./img/Look.png" alt="car-img">
+            </div>
+            <div class="choosen-car-name">
+              <h4>Nissan GT - R</h4>
+              <p>Sport Car</p>
+            </div>
+            <div class="choosen-car-id">
+              <span>#9761</span>
+            </div>
+        </div>
+        <div class="choosen-car d-flex">
+            <div class="choosen-car-image">
+              <img src="./img/Look.png" alt="car-img">
+            </div>
+            <div class="choosen-car-name">
+              <h4>Nissan GT - R</h4>
+              <p>Sport Car</p>
+            </div>
+            <div class="choosen-car-id">
+              <span>#9761</span>
+            </div>
+        </div>
+        <div class="choosen-car d-flex">
+            <div class="choosen-car-image">
+              <img src="./img/Look.png" alt="car-img">
+            </div>
+            <div class="choosen-car-name">
+              <h4>Nissan GT - R</h4>
+              <p>Sport Car</p>
+            </div>
+            <div class="choosen-car-id">
+              <span>#9761</span>
+            </div>
+        </div>
+        <div class="choosen-car d-flex">
+            <div class="choosen-car-image">
+              <img src="./img/Look.png" alt="car-img">
+            </div>
+            <div class="choosen-car-name">
+              <h4>Nissan GT - R</h4>
+              <p>Sport Car</p>
+            </div>
+            <div class="choosen-car-id">
+              <span>#9761</span>
+            </div>
+        </div>
+        <div class="choosen-car d-flex">
+            <div class="choosen-car-image">
+              <img src="./img/Look.png" alt="car-img">
+            </div>
+            <div class="choosen-car-name">
+              <h4>Nissan GT - R</h4>
+              <p>Sport Car</p>
+            </div>
+            <div class="choosen-car-id">
+              <span>#9761</span>
+            </div>
+        </div>
+    </div>
+</div>
+
 </div>
 </main>
 

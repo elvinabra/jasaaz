@@ -10,22 +10,27 @@
 </head>
 <body>
 
-<header class="container d-flex">
+    <div class="mobile-header">
+        <a href="#" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <a href="#" class="menu-user">
+            <img src="./img/Ellipse 93.png" alt="user">
+        </a>
+    </div>
+
+<header class="container d-flex header2">
     <div class="logo-and-menues d-flex">
          <a href="index.html" class="logo">
             <img src="./img/Logo.png" alt="Logo">
         </a>
-        <nav class="d-flex">
-            <a href="#">cars</a>
-            <a href="#">vendors</a>
-        </nav>
+        <div class="searchbar" >
+            <input type="text" class="search-input-first" placeholder="Search something here">
+            <a href="#"><img src="./img/search-normal.png" alt="search-icon"></a>
+        </div>
     </div>
      
-    <div class="searchbar">
-        <input type="text" class="search-input-first" placeholder="Search something here">
-        <a href="#"><img src="./img/search-normal.png" alt="search-icon"></a>
 
-    </div>
 
 
     <div class="lang-and-signin d-flex">
@@ -34,8 +39,51 @@
             <option value="az">AZ</option>
             <option value="ru">RU</option>
         </select>
+        <a href="#" id="favourite"><i class="fa-solid fa-heart"></i></a>
+        <a href="#" id="notification"><i class="fa-solid fa-bell"></i></a>
+        <a href="#" id="settings"><i class="fa-solid fa-gear"></i></a>
+        <a href="#" id="account"></a>
+    </div>  
+</header>
 
-        <a href="#" class="primary-button">Join as a Vendor</a>
+
+<header class="container d-flex header1">
+    <div class="logo-and-menues d-flex">
+        <a href="index.html" class="logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </a>
+        <nav class="d-flex">
+            <a href="index.html" class="logo for-mobile">
+                <img src="./img/Logo.png" alt="Logo">
+            </a>
+            <a href="cars.html">cars</a>
+            <a href="cars.html">vendors</a>
+            <div class="lang-and-signin d-flex for-mobile">
+                <select name="" id="lang">
+                    <option value="en">EN</option>
+                    <option value="az">AZ</option>
+                    <option value="ru">RU</option>
+                </select>
+        
+                <a href="signin.html" class="primary-button">Join as a Vendor</a>
+            </div>  
+        </nav>
+    </div>
+     
+    <div class="searchbar">
+        <input type="text" class="search-input-first" placeholder="Search something here">
+        <a href="#"><img src="./img/search-normal.png" alt="search-icon"></a>
+    </div>
+
+
+    <div class="lang-and-signin d-flex for-pc">
+        <select name="" id="lang">
+            <option value="en">EN</option>
+            <option value="az">AZ</option>
+            <option value="ru">RU</option>
+        </select>
+
+        <a href="signin.html" class="primary-button">Join as a Vendor</a>
     </div>  
 </header>
 

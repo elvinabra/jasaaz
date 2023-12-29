@@ -1,3 +1,536 @@
+@media screen and (max-width: 1375px) {
+    .logo{
+        width: 80px;
+    }
+    nav a, #lang, .primary-button{
+        font-size: 14px;
+    }
+    .searchbar > .search-input-first{
+        padding: 10px 70px;
+    }
+
+
+    .primary-button{
+        padding: 5px 15px;
+    }
+  }
+
+
+  @media screen and (max-width: 1360px) {
+    .rent-date{
+        justify-content: center;
+    }
+
+    .rent-date > div{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1200px){
+    .name-and-star h1, .description-detail .favourite i,.model-description-specification h2{
+    font-size: 18px;
+  }
+
+  .star > .starred, .star .unstarred{
+    height: 18px;
+    width: 18px;
+  }
+
+  .model-description-specification p, .detail-date span, .detail-date i{
+    font-size: 12px;
+  }
+
+  .detail-price > div> h6, .detail-price > span{
+    font-size: 20px;
+  }
+
+  .car-detail .primary-button{
+    padding: 10px 15px;
+  }
+}
+
+  @media screen and (max-width: 1135px) {
+
+    .lang-and-signin {
+        padding-left: 5px;
+    }
+  }
+
+
+  @media screen and (max-width: 1000px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .primary-button {
+        padding: 5px 10px;
+    }
+    .top-footer > div{
+        width: 46%;
+    }
+
+    .searchbar > .search-input-first {
+        padding: 5px 35px;
+        font-size: 14px;
+    }
+    .searchbar > a{
+        left: 15px;
+    }
+
+    .searchbar > a{
+        width: 14px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .banner .left h2{
+        font-size: 2rem;
+    }
+
+    .banner .left p{
+        font-size: 14px;
+    }
+
+
+
+    footer a, footer p, .top-left p, .top-right ul li a{
+        font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 900px){
+   
+    .for-filter{
+        display: flex;
+    }
+
+ .cars-column.active{
+    width: 100%;
+    transition: 0.6s;
+ }
+    
+ .cars-column.active .products{
+    justify-content: space-between;
+ }
+
+ .cars-column .products .product{
+    width: 270px;
+ }
+
+    .cars-left-sidebar {
+        width: 0%;
+        left: -210px;
+        background: white;
+        border-top: 2px solid #1c1e22;
+        transition: 0.6s;
+    }
+
+    .cars-left-sidebar.active {
+        width: 25%;
+        left: 0px;
+        background: white;
+        border-top: 2px solid #F6F7F9;
+        transition: 0.6s;
+    }
+
+    .for-filter{
+        right: -200px;
+        transition: 0.6s;
+    }
+    .for-filter.active{
+        right: 15px;
+        transition: 0.6s;
+    }
+
+    .cars-left-sidebar label{
+        font-size: 12px;
+    }
+
+    .cars-left-sidebar input[type="checkbox"]{
+        width: 12px;
+        height: 12px;
+    }
+
+    .cars-left-sidebar > div > span{
+        font-size: 14px;
+    }
+
+    .product-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .cars-right-sidebar-detail > div:nth-child(1){
+        flex-direction: column;
+    }
+    .cars-right-sidebar-detail > div:nth-child(1) > div, .image-detail{
+        width: 100% !important;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+    .mobile-header {
+        display: flex;
+    }
+.for-pc{
+    display: none;
+}
+
+    header, .logo-and-menues, .logo-and-menues nav{
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+header{
+    position: relative;
+    top: 40px;
+}
+
+    header > div{
+        margin-top: 40px;
+    }
+
+    .logo-and-menues > .logo{
+        width: 108px;
+    }
+
+    .searchbar{
+        width: 100%;
+    }
+
+    .searchbar > .search-input-first{
+      border-radius: 10px;
+      padding: 20px 45px;
+    }
+   
+    .searchbar > a{
+        width: 20px;
+    }
+    main{
+        margin-top: 40px;
+    }
+
+    .banner {
+        flex-direction: column;
+        height: 320px;
+    }
+
+    .banner > div{
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    .banner > div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .banner > div:nth-child(2) > img{
+        width: 80%;
+    }
+
+    .banner .left h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .banner .left p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .banner-second{
+        padding: 20px;
+        align-items: center;
+    }
+
+.banner-second h2, .banner-second p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .filter > form{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .filter > form > div{
+        width: 40%;
+        margin-top: 10px;
+    }
+   
+
+    footer a, footer p, .top-left p, .top-right ul li a{
+        font-size: 10px;
+    }
+
+    .top-footer{
+        flex-direction: column;
+    }
+
+    .top-footer > div{
+        width: 100%;
+    }
+
+
+    .top-right{
+        justify-content: space-between;
+    }
+    nav, nav a{
+        display: none;
+    }
+
+   .pick-header, .pick-filter > div > span{
+    font-size: 12px;
+
+   }
+
+   .pick-filter > div > select{
+    font-size: 10px;
+   }
+
+  }
+
+  @media screen and (max-width: 660px){
+
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .product{
+        width: 200px;
+        height: 200px;
+        
+    }
+
+ .car-name, .product-header > div:nth-child(1) i{
+   font-size: 15px;
+ }
+
+
+ .product-header > div:nth-child(2), .manual-type > span, .person-count > span{
+    font-size: 12px;
+ }
+
+.manual-type > span:nth-child(1), .person-count > span:nth-child(1){
+    width: 12px;
+}
+
+.product .price span:nth-child(1), .product .price span:nth-child(2), .product .price del, .primary-button{
+    font-size: 12px;
+}
+
+.product .product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .product-image img{
+    width: 100px;
+}
+
+.rent-date > div > div:nth-child(2){
+    flex-direction: column;
+}
+
+.rent-date > div > div:nth-child(2) > div{
+    padding: 0;
+    border:none;
+    border-bottom: 1px solid #C3D4E9;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.cars{
+    position: relative;
+}
+.for-filter, .for-filter.active, .cars-left-sidebar{
+    display: none;
+}
+
+.for-filters.disabled .for-filters.enabled, .for-filters{
+    display: flex;
+}
+.cars-left-sidebar.enabled{
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 120vh;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    transition: 0.6s;
+}
+.for-filters.disabled{
+    position: absolute;
+    left: 90%;
+    top: 40px;
+    width: 30px;
+}
+
+.for-filters.enabled{
+    left: 43%;
+    top: 20px;
+    z-index: 60;
+}
+
+
+}
+
+@media screen and (max-width: 590px){
+.cars  .product-section  .product{
+    width: 180px;
+    padding: 10px;
+}
+.cars  .product-section .product .car-name, .cars  .product-section .product .product-header > div:nth-child(1) i{
+    font-size: 13px;
+}
+}
+
+
+@media screen and (max-width: 500px){
+    .for-filters.disabled{
+        left: 88%;
+        top: 30px;
+    }
+    .for-filters.enabled {
+        left: 43%;
+        top: 20px;
+        z-index: 60;
+    }
+
+    .cars-left-sidebar, .cars-right-sidebar{
+        padding: 10px; 
+    }
+
+    .review-body h6{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 420px){
+    .logo-and-menues > .logo{
+        width: 80px;
+
+    }
+    .searchbar > .search-input-first {
+        border-radius: 10px;
+        padding: 15px 30px;
+    }
+
+    .searchbar > a {
+        width: 15px;
+    }
+
+    .searchbar > a {
+        left: 10px;
+    }
+
+    .banner .left h2, .banner-second h2{
+        font-size: 1.2rem;
+    }
+
+    .banner .left p, .banner-second p{
+        font-size: 0.8rem;
+    }
+
+    .filter > form > div {
+        width: 30%;
+        margin-top: 10px;
+    }
+
+    .banner-and-filter select {
+        appearance: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 15px;
+        font-size: 12px;
+    }
+
+    .product-section h3{
+        font-size: 12px;
+    }
+
+
+
+
+    .product{
+        width: 170px;
+        height: 190px;
+        padding: 10px;
+    }
+
+    .car-name, .product-header > div:nth-child(1) i{
+        font-size: 15px;
+      }
+     
+     
+      .product-header > div:nth-child(2), .manual-type > span, .person-count > span{
+         font-size: 10px;
+      }
+     
+     .manual-type > span:nth-child(1), .person-count > span:nth-child(1){
+         width: 10px;
+     }
+     
+     .product .price span:nth-child(1), .product .price span:nth-child(2), .product .price del, .primary-button{
+         font-size: 10px;
+     }
+     
+     .product .product-image{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .product .product-image img{
+         width: 80px;
+     }
+     .primary-button {
+        padding: 2px 5px;
+    }
+     
+}
+
+@media screen and (max-width: 410px){
+    .cars  .product-section  .product{
+        width: 145px;
+        padding: 10px;
+    }
+
+    .for-filters.disabled{
+        left: 86%;
+    }
+    .for-filters.enabled {
+        left: 41%;
+        top: 20px;
+        z-index: 60;
+    }
+
+    }
+
+@media screen and (max-width: 370px){
+.top-right{
+    flex-direction: column;
+    
+}
+
+.top-right > div{
+    margin: 20px 0;
+}
+}
+
 .header2{
     display: none;
 }
+
+

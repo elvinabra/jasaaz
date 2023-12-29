@@ -37,6 +37,37 @@ img{
     display: flex;
 }
 
+.mobile-header{
+    position: relative;
+    top: 10px;
+    display: none;
+}
+
+.hamburger, .menu-user{
+    position: absolute;
+    z-index: 99;
+    top: 20px;
+
+    color: #596780;
+}
+
+.hamburger{
+    left: 20px;
+}
+
+.menu-user{
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    right: 20px;
+    background-color: #3563E9;
+}
+
+.hamburger i{
+    font-size: 24px;
+    color: #596780;
+}
+
 .header1, .banner, .logo-and-menues, .lang-and-signin, .header2, .car-detail, .description-detail, .name-and-star, .star-favourite, .car-detail-spesification, 
 .car-detail-spesification > div, .detail-date, .price-rentnow, .reviews-header, .recent-view-all, .rent-price > div, .final-total-price
 {
@@ -161,6 +192,7 @@ color: #596780;
     background-repeat: no-repeat;
     width: 100%;
     justify-content: center;
+    padding: 40px;
 }
 
 .banner .left h2{
@@ -548,12 +580,14 @@ align-items: center;
 
 .rent-date{
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .rent-date > div{
     padding: 30px;
     background-color: white;
     border-radius: 10px;
+    margin: 5px;
 }
 
 .pick-filter{
@@ -1196,4 +1230,36 @@ width: 20%;
 
 .terms div{
     margin-top: 50px;
+}
+
+.for-mobile{
+    display: none;
+}
+
+.cars-left-sidebar{
+ position: relative;       
+}
+
+.for-filter{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    opacity: 0.7;
+}
+
+.for-filter i, .for-filters{
+font-size: 18px;
+}
+
+.for-filters{
+    display: none;
+    opacity: 0.7;
+}
+
+.car-detail{
+    align-items: flex-start;
+}
+
+.description-detail{
+    margin-top: 20px;
 }
