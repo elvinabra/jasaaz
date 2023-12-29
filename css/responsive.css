@@ -168,6 +168,10 @@
     .cars-right-sidebar-detail > div:nth-child(1) > div, .image-detail{
         width: 100% !important;
     }
+
+    .banner-second{
+        margin-top: 40px;
+    }
   }
 
   @media screen and (max-width: 750px){
