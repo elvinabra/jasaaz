@@ -509,7 +509,7 @@ header{
      }
      
      .product .product-image img{
-         width: 80px;
+         width: 110px;
      }
      .primary-button {
         padding: 2px 5px;
@@ -519,7 +519,7 @@ header{
 
 @media screen and (max-width: 410px){
     .cars  .product-section  .product{
-        width: 155px;
+        width: 165px;
         padding: 10px;
     }
 
