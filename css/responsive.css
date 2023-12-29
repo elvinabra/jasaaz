@@ -340,7 +340,7 @@ header{
 }
 
 .product .product-image img{
-    width: 100px;
+    width: 120px;
 }
 
 .rent-date > div > div:nth-child(2){
@@ -353,6 +353,10 @@ header{
     border-bottom: 1px solid #C3D4E9;
     margin: 0;
     margin-top: 20px;
+}
+
+.rent-date > div > div:nth-child(2) > div > select, .rent-date > div > div:nth-child(2) > div input{
+    width: 100%;
 }
 
 .cars{
@@ -430,7 +434,7 @@ header{
 
 @media screen and (max-width: 420px){
     .logo-and-menues > .logo{
-        width: 80px;
+        width: 110px;
 
     }
     .searchbar > .search-input-first {
