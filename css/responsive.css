@@ -176,6 +176,57 @@
     .image-detail{
         padding: 0;
     }
+
+    .final-rent-second, .final-how-it-works{
+        flex-direction: column;
+    }
+
+    .final-rent-second > div, .final-how-it-works > div{
+        width: 100%;
+    }
+
+    .vendors, .privacy, .terms{
+        padding: 20px;
+    }
+
+    ol li p, .condintion p{
+        font-size: 12px;
+    }
+
+    .terms div{
+        margin: 0;
+    }
+
+    .rent-second{
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .rent-second > div{
+        width: 100% !important;
+    }
+
+    .remember{
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+    }
+
+    .remember > label{
+        font-size: 12px;
+    }
+
+
+    .rent-car-name-star h3{
+        font-size: 16px;
+    }
+
+    .vendors > .vendor > div > p > a{
+        font-size: 11px;
+    } 
+
+    .vendor-cars a {
+        padding: 5px;
+    }
   }
 
   @media screen and (max-width: 750px){
@@ -399,6 +450,71 @@ header{
     border-radius: 50px;
 }
 
+.login{
+    flex-direction: column;
+}
+
+.login > div, .login-main, .login-main > div{
+    width: 100% !important;
+}
+
+.final-rent-second .rent-right p{
+    font-size: 16px;
+}
+
+
+.final-rent-second .rent-right button{
+    width: 300px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.payment-method-body > div:nth-child(2), .billing  .payment-method-body > div{
+    flex-direction: column;
+}
+
+.payment-method-body > div:nth-child(2) > div, .billing  .payment-method-body > div > div{
+    width: 100% !important;
+    margin-left: 0;
+}
+.rent-car-name-star > h3{
+    font-size: 16px;
+}
+
+.rent-car > div:nth-child(1){
+    justify-content: space-between;
+}
+
+
+
+.payment-method-header > div > span, .right-rent-header p, .rent-right span{
+    font-size: 11px;
+}
+
+.payment-method-header > h5, .final-total-price h6, .final-total-price > span{
+    font-size: 14px;
+}
+
+
+.rent-car .rent-car-img{
+    width: 100px;
+    height: 100px;
+}
+
+.payment-button a{
+    padding: 8px;
+}
+
+.rent-car-name-star h3{
+    font-size: 13px;
+}
+
+.vendors > .vendor > div > p > a, .vendor-cars a {
+    font-size: 9px;
+} 
+
+
+
 }
 
 @media screen and (max-width: 590px){
@@ -430,6 +546,21 @@ header{
     .review-body h6{
         font-size: 16px;
     }
+
+    .vendors > div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vendors > .vendor > div{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .vendors > .vendor h3, .vendors > .vendor p{
+        margin: 0;
+    }
+
 }
 
 

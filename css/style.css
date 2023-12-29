@@ -1263,3 +1263,7 @@ font-size: 18px;
 .description-detail{
     margin-top: 20px;
 }
+
+.rent-right{
+    align-items: center;
+}
