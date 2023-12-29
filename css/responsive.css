@@ -357,6 +357,7 @@ header{
 
 .rent-date > div > div:nth-child(2) > div > select, .rent-date > div > div:nth-child(2) > div input{
     width: 100%;
+    background-color: transparent;
 }
 
 .cars{
