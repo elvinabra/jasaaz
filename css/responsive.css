@@ -172,6 +172,10 @@
     .banner-second{
         margin-top: 40px;
     }
+
+    .image-detail{
+        padding: 0;
+    }
   }
 
   @media screen and (max-width: 750px){
@@ -384,7 +388,11 @@ header{
     top: 20px;
     z-index: 60;
 }
-
+.author-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50px;
+}
 
 }
 
@@ -507,7 +515,7 @@ header{
 
 @media screen and (max-width: 410px){
     .cars  .product-section  .product{
-        width: 145px;
+        width: 155px;
         padding: 10px;
     }
 
@@ -519,7 +527,30 @@ header{
         top: 20px;
         z-index: 60;
     }
+    .author-img {
+        width: 190px;
+        height: 190px;
+        border-radius: 50px;
+    }
 
+    .staranddate .star > span{
+        width: 13px;
+        height: 13px;
+    }
+
+    .staranddate > span{
+        font-size: 13px;
+    }
+
+    .review-body h6{
+        font-size: 14px;
+    }
+
+    .review-body > p{
+        font-size: 11px;
+    }
+
+ 
     }
 
 @media screen and (max-width: 370px){
