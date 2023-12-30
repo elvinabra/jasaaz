@@ -49,3 +49,24 @@ if($(".for-filters").length){
         }
     })
 }
+
+if($(".hamburger").length){
+    $(".hamburger").click(function(e){
+        e.preventDefault();
+      $('nav').toggleClass('active');
+      $('.close-header').toggleClass('active');
+      $('.for-mobile').toggleClass('active');
+      $('nav > a').css('display', 'flex');
+    }); 
+}
+
+
+if($(".close-header").length){
+    $(".close-header").click(function(e){
+        e.preventDefault();
+        $('nav').toggleClass('active');
+        $('nav > a').css('display', 'none');
+      $('.close-header').toggleClass('active');
+      $('.for-mobile').toggleClass('active');
+    }) 
+}

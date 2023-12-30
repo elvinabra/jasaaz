@@ -255,6 +255,37 @@ header{
         width: 108px;
     }
 
+    nav.active{
+        padding: 40% 15px;
+        justify-content: flex-start;
+    }
+    
+    .logo.for-mobile.active{
+        position: absolute;
+        top: 30px;
+        width: 100px;
+    }
+
+    .lang-and-signin.for-mobile.active{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .lang-and-signin.for-mobile.active > select, .lang-and-signin.for-mobile.active > a{
+     margin-top: 20px;
+     margin-left: 0;
+    }
+
+    .lang-and-signin.for-mobile.active > a{
+        background-color: transparent;
+        color: black;
+        padding: 0;
+    }
+
+    nav > a{
+        margin-top: 20px;
+    }
     .searchbar{
         width: 100%;
     }
@@ -352,6 +383,20 @@ header{
     font-size: 10px;
    }
 
+
+   nav.active{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: white;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+   }
+
+   .for-mobile.active{
+    display: flex;
+   }
   }
 
   @media screen and (max-width: 660px){
